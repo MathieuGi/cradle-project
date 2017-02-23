@@ -1,6 +1,6 @@
 import { CradleProjectPage } from './app.po';
 
-describe('cradle-project App', function() {
+describe('cradle-project App', () => {
   let page: CradleProjectPage;
 
   beforeEach(() => {
