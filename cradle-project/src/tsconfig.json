@@ -16,6 +16,13 @@
     "target": "es5",
     "typeRoots": [
       "../node_modules/@types"
+    ],
+    "types": [
+      "firebase"
     ]
-  }
+  },
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts"
+  ]
 }

@@ -1,0 +1,18 @@
+
+  <md-card class="signin">
+    <md-card-title>Sign In</md-card-title>
+
+    <form>
+      <md-card-content>
+        <input type="text" placeholder="Git Username !" id="username" [(ngModel)]="username" name="username" class="form-control git-input">
+     
+        <div class="submit">
+          <button md-button (click)="signIn(username)"> Submit </button>
+        </div>
+     
+        
+      </md-card-content>
+    
+
+    </form>
+  </md-card>
